@@ -1,0 +1,30 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap' );
+
+: raiz {
+    --cor-principal :  # 6E859F ; /* Cor principal */
+    --cor-secundária :  # 007BFF ; /* Cor secundária alterada para azul */
+    --cor-destaque :  # C92BFC ; /* Cor de destaque */
+}
+
+corpo {
+    família de fontes :  'Chakra Petch' , sem serifa;
+    cor :  var ( --cor-principal );
+}
+
+h1 ,  h2 ,  h5 {
+    cor :  var ( --cor-secundaria );
+    espessura da fonte :  700 ;
+}
+
+. lead , . btn-link {
+    cor :  var ( -cor-destaque );
+    espessura da fonte :  700 ;
+}
+
+a , . btn-link : hover {
+    cor :  var ( --cor-principal );
+}
+
+a : pairar {
+    cor :  var ( -cor-destaque );
+}
